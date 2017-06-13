@@ -21,7 +21,7 @@ driver.findElement(By.id('submit')).click();
 driver.get('http://testpress:80');
 driver.getTitle().then(function(title){
    assert.equal(title, "Test – Just another WordPress site");
-   console.log('> Title is correct !');
+   console.log('> Test WordPress is up on Docker!');
   	});
 
 driver.sleep(10000);
