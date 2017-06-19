@@ -26,4 +26,6 @@ driver.getTitle().then(function(title){
   	});
 
 driver.sleep(10000);
+driver.get('http://testpress:80');
+driver.sleep(10000);
 driver.quit();
