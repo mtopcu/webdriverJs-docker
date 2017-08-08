@@ -10,14 +10,14 @@ withCapabilities(webdriver.Capabilities.chrome()).build();
 driver.get('http://testpress:80/');
 
 driver.getTitle().then(function(title){
-	console.log('The page title is ->',title);
+	console.log('The page title is ->',title); });
   
 driver.sleep(5000);  
 
 driver.findElement(By.id('logo')).click(); 
   
 driver.getTitle().then(function(title){
-	console.log('The page title is ->',title);
+	console.log('The page title is ->',title); });
 
 driver.sleep(10000);
 driver.quit();
