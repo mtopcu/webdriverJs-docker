@@ -1,5 +1,4 @@
 var webdriver = require('selenium-webdriver');
-var webdriver = require('selenium-webdriver');
 var assert = require('assert');
 var By = webdriver.By;
 var until = webdriver.until;
