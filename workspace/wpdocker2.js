@@ -12,7 +12,7 @@ driver.get('http://wordpress:80/wp-admin');
 driver.getTitle().then(function(title){
 	console.log('The page title is ->',title); });
   
-driver.sleep(5000);  
+driver.sleep(10000);  
 
 driver.findElement(By.id('logo')).click(); 
   
