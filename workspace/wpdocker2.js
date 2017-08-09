@@ -7,7 +7,7 @@ var until = webdriver.until;
 var driver = new webdriver.Builder().
 usingServer('http://hub:4444/wd/hub').
 withCapabilities(webdriver.Capabilities.chrome()).build();
-driver.get('http://http://localhost:8081/');
+driver.get('http://http://localhost:80/');
 
 driver.getTitle().then(function(title){
 	console.log('The page title is ->',title); });
